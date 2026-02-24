@@ -5,7 +5,7 @@ FROM eclipse-temurin:20-jdk-jammy
 WORKDIR /app
 
 # Copy the JAR
-COPY target/coffeeshop-1.0.0.jar app.jar
+COPY my-render-backend/coffeeshop-1.0.0.jar app.jar
 
 # Expose port (Render provides $PORT)
 EXPOSE 8080
